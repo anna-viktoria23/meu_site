@@ -1,0 +1,9 @@
+body{
+    /* background-color:#cd3552; */
+    background-image: url(src/imagens/perfil.jpg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover
+}
+h1 {
+    color:#f0f0f0;
+}
