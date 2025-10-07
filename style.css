@@ -1,0 +1,31 @@
+/* body{
+     background-color:#cd3552; 
+    background-image: url(src/imagens/perfil.jpg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover
+}
+h1 {
+    color:#f0f0f0;
+} */
+
+table {
+    border: 1px solid brown; 
+    border-spacing:5px;
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+table > td {
+    padding: 1px;
+    text-align: left;
+}
+
+th{
+    border: 1px;
+}
+
+
+tr{
+    /* background-image: url(/src/imagens/perfil_red1.jpg); */
+    background-color: rgba(139, 0, 0, 0.315);
+}
