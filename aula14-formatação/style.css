@@ -1,0 +1,39 @@
+p{
+    font-family:'Lobster Two',Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+}
+
+a {
+    color:brown;
+    text-decoration: none;
+}
+
+a:visited {
+    color:rgb(90, 104, 252);
+}
+
+a:hover {
+    color:rgb(183, 2, 255);
+    text-decoration: underline;
+}
+
+a:active {
+    color:rgb(243, 0, 0);
+}
+
+.imagem-post {
+    max-width: 150%;
+    height: auto;
+    display: block;
+    margin-bottom: 5rem;
+    border-radius:20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.avatar {
+    width: 100px;
+    height:100px;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
