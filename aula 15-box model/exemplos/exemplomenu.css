@@ -1,0 +1,44 @@
+/* Seleciona a lista DENTRO da tag nav */
+nav ul {
+    /* Remove os marcadores (bullets) */
+    list-style: none;
+    /* Remove o espaçamento padrão do navegador */
+    margin: 0;
+    padding: 0;
+    /* (Opcional) Define um fundo para a barra de menu */
+    background-color: #efc6c6;
+}
+
+/*seleciona itens dentro da lista do nav*/
+nav li{
+    display: inline-block /*deixa tudo na mesma linha*/
+}
+
+/*seleciona os links dentro da lista do nav*/
+nav li a{
+    display:block; /*O link se comporta como bloco (ocupa o <li>)*/
+    color:rgb(131, 45, 45); /*Cor da letra*/
+    text-decoration: none; /*Tira o sublinhado*/
+    font-weight: bold; /*espessura da fonte*/
+    padding: 1rem; /*1rem = 16px*/
+    /*Resulta um botão de 16 px de padding em todos os lados*/
+}
+
+/*Esconde o submenu por padrão*/
+nav ul ul{
+    display: none;
+    position: absolute; /*ainda é avançado e não sabemos o que significa/ é de posição em niveis de camadas*/
+    background-color: #deb3b3;
+}
+
+/*Mostra o submenu quando o <li> pai está em :hover- o mouse está em cima*/
+nav ul li:hover > ul{ /*chama com pseudo-classe*/
+    display: block;
+}
+
+/*estiliza os itens do submenu para ficar na vertical*/
+nav ul ul li{
+    display: block;
+    width: 200px /*Largura para o dropdown*/
+}
+

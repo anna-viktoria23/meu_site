@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #e7b7b7
+}
+
+.caixa {
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+    border: 5px solid pink;
+    margin: 15px;
+    display: inline-block;
+}
+
+.menu-principal{
+    list-style: none;
+    background-color: #813a3a;
+}
+
+.menu-principal li{
+    display: inline-block;
+    position: relative;
+}
+
+.menu-principal li a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+.menu-principal li a:hover{
+    background-color: #b27a7a;
+}
+
+.menu-principal ul ul{
+    display: none;
+    position: absolute;
+    background-color:#813a3a
+}
+
+.menu-principal li:hover > ul{
+    display: block;
+}
+
+.menu-principal ul ul li{
+    display: block;
+    width: 200px /*Largura para o dropdown*/
+}
