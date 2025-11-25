@@ -20,10 +20,7 @@ margin: 0;
 padding: 0;
 }
 
-body {
-font-family: sans-serif;
-padding-top: 20px; /* Espaço para ver os exemplos */
-}
+
 
 /* Container para os exemplos */
 .container {
@@ -49,7 +46,7 @@ z-index: 10;
 position: absolute;
 top: 120px; /* 5px do topo do .container
 */
-left: 5px; /* 5px da direita do
+right: 5px; /* 5px da direita do
 .container */
 width: 100px; /* Reduzimos para
 caber */

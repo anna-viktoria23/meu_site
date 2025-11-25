@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* 1.1. Básico */
+#flex-basico {
+display: flex; /* Ativa o Flexbox */
+}
+
+/* 1.2. Direção (Column) */
+#flex-direction {
+display: flex;
+flex-direction: column; /* Muda eixo principal para
+vertical */
+/* CORREÇÃO: Remove a altura fixa de 150px para
+que o container cresça e abrace os itens empilhados, sem cortar
+a borda. */
+height: auto;
+}
+
+/* 1.3. Justify Content (Eixo Principal - Horizontal aqui) */
+#flex-justify {
+display: flex;
+justify-content: space-around; /* Espalha os itens */
+}
